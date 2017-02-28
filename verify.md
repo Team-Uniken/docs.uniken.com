@@ -36,7 +36,6 @@ Against every action (Accept/Decline), enterprise can also choose the authentica
 | Request Method 			| POST |
 | Request Headers			| Add the Authentication Header with credentials <br/> Authorization: "Basic Base64.encodeBase64("ENTERPRISE-USER:ENTERPRISE-PASSWORD")"|
 | HTTP Request Body (JSON) ||
-||
 ```javascript
 {
 	msg_id:"<message-id>",
