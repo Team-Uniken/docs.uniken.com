@@ -1,0 +1,25 @@
+{
+  "name": "docs.uniken.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jamesvillarrubia@github.com/Team-Uniken/docs.uniken.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Uniken/docs.uniken.com/issues"
+  },
+  "homepage": "https://github.com/Team-Uniken/docs.uniken.com#readme",
+  "dependencies": {
+    "md-to-pdf": "^1.1.0",
+    "remarkable": "^1.7.1",
+    "yamp": "^0.4.1"
+  }
+}
