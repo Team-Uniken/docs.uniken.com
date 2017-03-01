@@ -21,7 +21,7 @@ markdownpdf(options).from(mdDocs).to(pdfDocs, function () {
 
 var yamp = require('yamp');
 var options = {
-	style:false//'custom.css'
+	style:true
 }
 var pdf = new yamp.renderers.pdf();
 var html = new yamp.renderers.html();
